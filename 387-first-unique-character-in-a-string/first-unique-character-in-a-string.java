@@ -1,6 +1,6 @@
 class Solution {
     public int firstUniqChar(String s) {
-        Scanner sc=new Scanner(System.in);
+        
         
         for(int i=0;i<s.length();i++){
             boolean h=true;
