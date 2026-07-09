@@ -8,15 +8,15 @@ class Solution {
         while(i<=j){
             int sum=people[i]+people[j];
             if(sum<=limit){
-                boat++;
+                
                 j--;
                 i++;
             }
             else{
-                boat++;
-               
+            
                 j--;
             }
+            boat++;
         }
         return boat;
 
